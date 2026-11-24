@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.ota-1 {
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+    padding: 4px;
+    background: black;
+    font-size: 0;
+}
+
+
+.q1 {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background: purple;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 18px;
+    margin-bottom: 8px;
+}
+
+.q1 h1 {
+    font-size: 26px;
+}
+
+.q2,
+.q3,
+.q4,
+.q5,
+.q6,
+.q7,
+.q8,
+.q9 {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    background: cyan;
+    padding: 10px;
+    font-size: 13px;
+    
+}
+
+h2 {
+    font-size: 45px;
+    margin: 8px 0 12px;
+}
+
+p {
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.q2,
+.q3,
+.q4 {
+    width: 32.4%;
+    height: 450px;
+    margin-bottom: 8px;
+    font-size: 35px;
+}
+
+.q2 {
+    left: 0;
+}
+
+.q3 {
+    left: 1.1%;
+}
+
+.q4 {
+    left: 2.2%;
+}
+
+.q5,
+.q6,
+.q7,
+.q8,
+.q9 {
+    width: 19%;
+    height: 400px;
+    font-size: 35px;
+}
+
+.q5 {
+    left: 0;
+}
+
+.q6 {
+    left: 1%;
+}
+
+.q7 {
+    left: 2%;
+}
+
+.q8 {
+    left: 3%;
+}
+
+.q9 {
+    left: 4%;
+}

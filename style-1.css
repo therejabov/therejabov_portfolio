@@ -1,0 +1,92 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.ota {
+    width:100%;
+    border: 4px solid #8bc34a;
+    padding: 5px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    font-size: 5px;
+    position: relative;
+    left: 3.5em;
+    height: 250em;
+}
+
+.q1 {
+    border: 1px solid silver;
+    padding: 5px;
+    position: relative;
+    top: 0;
+}
+
+.q2 {
+    border: 1px solid silver;
+    padding: 5px;
+    position: relative;
+    top: 0;
+}
+
+.q3 {
+    border: 1px solid silver;
+    padding: 5px;
+    position: relative;
+    top: 0;
+}
+
+.q4 {
+    border: 1px solid silver;
+    padding: 5px;
+    position: relative;
+    top: 0;
+}
+
+.q5 {
+    border: 1px solid silver;
+    padding: 5px;
+    position: relative;
+    top: 0;
+}
+
+.q6 {
+    border: 1px solid silver;
+    padding: 5px;
+    position: relative;
+    top: 0;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+}
+
+button {
+    width: 100%;
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 7px;
+    font-size: 9px;
+    height: 8em;
+    border-radius: 10px;
+
+}
+@keyframes spin {
+        .q1{
+            transform: rotate(1);
+            bottom: 500px;
+        }
+}
